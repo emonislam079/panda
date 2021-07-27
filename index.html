@@ -13,8 +13,8 @@
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
                 <img src="logo.png" alt="">
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -30,16 +30,19 @@
                     </form>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">showes</a>
+                            <a class="nav-link" href="#categories">categories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">backpack</a>
+                            <a class="nav-link" href="#showes">showes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">subcribe</a>
+                            <a class="nav-link" href="#backpack">backpack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subcribe">subcribe</a>
                         </li>
 
                     </ul>
@@ -47,7 +50,7 @@
                 </div>
             </div>
         </nav>
-        <section class="container mt-5">
+        <section class="container mt-5" id="home">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -113,7 +116,7 @@
         </section>
     </header>
     <main>
-        <section class="container my-5">
+        <section class="container my-5" id="categories">
             <div class="container overflow-hidden">
                 <div class="row gy-5">
                     <div class="col-lg-4 col-md-6">
@@ -137,7 +140,7 @@
                 </div>
             </div>
         </section>
-        <section class="container">
+        <section class="container" id="showes">
             <h1 class=" mb-5">SHOES</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
                 <div class="col">
@@ -184,7 +187,7 @@
                 </div>
             </div>
         </section>
-        <section class="container">
+        <section class="container" id="backpack">
             <h1 class=" mb-5">Bagpack</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
                 <div class="col">
@@ -231,7 +234,7 @@
                 </div>
         </section>
         <section class="container bg-info d-flex align-items-center justify-content-center rounded-3"
-            style="height: 400px;">
+            style="height: 400px;" id="subcribe">
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
                 <p>Get updates on sales, specials and more</p>
